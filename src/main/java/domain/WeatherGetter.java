@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 
 
 public class WeatherGetter {
-	public static final String URL = "http://api.openweathermap.org/data/2.5/weather?appid=141213ba1fc04cb9c189514a365b98de&lang=pl&units=metric&q=";
+	public static final String URL = "http://api.openweathermap.org/data/2.5/weather?appid=c5f73f8449efda69fa2258f91eb7512f&lang=pl&units=metric&q=";
 	
 	public WeatherEntry getWeather(String city){
 		Client client = ClientBuilder.newClient();
